@@ -40,7 +40,7 @@
           {
             "Id": 4,
             "Name": "StartTine",
-            "Value": "2021-10-21",
+            "Value": "[DateTime:Utc|o]",
             "IsExpression": false,
             "ActionId": 1,
             "OrderIndex": 0
@@ -72,7 +72,7 @@
   "CreatedBy": "Petrut Floroiu",
   "CreatedOn": "2021-10-19T10:17:05.4432851+00:00",
   "LastModifiedBy": "Petrut Floroiu",
-  "LastModifiedOn": "2021-10-19T10:21:06.3407223+00:00",
+  "LastModifiedOn": "2021-10-19T10:27:59.998561+00:00",
   "InputFields": [
     {
       "Required": false,

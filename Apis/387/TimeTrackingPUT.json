@@ -33,7 +33,18 @@
       "OrderIndex": 1,
       "Parameters": {},
       "InputTypeStr": "text",
-      "Validations": []
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"Task is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0,
+          "Metadata": {
+            "PAP_InternalIdentifier": "Api.InputField.RequiredValidator"
+          }
+        }
+      ]
     },
     {
       "Name": "Hours",
@@ -54,6 +65,26 @@
           }
         }
       ]
+    },
+    {
+      "Name": "StartTine",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"StartTine is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0,
+          "Metadata": {
+            "PAP_InternalIdentifier": "Api.InputField.RequiredValidator"
+          }
+        }
+      ]
     }
   ],
   "Actions": [
@@ -63,7 +94,8 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Task": "[Task]",
-        "Hours": "[Hours]"
+        "Hours": "[Hours]",
+        "StartTine": "[StartTine]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",

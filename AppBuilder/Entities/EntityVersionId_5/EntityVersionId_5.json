@@ -1,0 +1,17 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 7,
+  "ShowDashboardModule": false,
+  "Id": 5,
+  "VersionId": 5,
+  "EntityTabId": 44,
+  "Name": "Customer",
+  "PluralName": "Customers",
+  "CreatedDate": "2021-10-19T09:55:08.4133333",
+  "CreatedBy": "Petrut Floroiu",
+  "Icon": "table",
+  "NamespaceId": 3,
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}

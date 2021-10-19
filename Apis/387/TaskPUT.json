@@ -65,6 +65,15 @@
           }
         }
       ]
+    },
+    {
+      "Name": "Status",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -74,7 +83,8 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "Title": "[Title]",
-        "Customer": "[Customer]"
+        "Customer": "[Customer]",
+        "Status": "[Status]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",

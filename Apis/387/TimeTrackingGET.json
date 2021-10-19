@@ -53,6 +53,10 @@
             "value": "[RecordId]"
           },
           {
+            "name": "StartTine",
+            "value": "[Record:StartTine]"
+          },
+          {
             "name": "Task",
             "value": "[Record:Task]"
           },

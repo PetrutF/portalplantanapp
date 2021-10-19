@@ -1,0 +1,17 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 16,
+  "ShowDashboardModule": false,
+  "Id": 8,
+  "VersionId": 8,
+  "EntityTabId": 50,
+  "Name": "Time Tracking",
+  "PluralName": "Time Trackings",
+  "CreatedDate": "2021-10-19T10:06:52.76",
+  "CreatedBy": "Petrut Floroiu",
+  "Icon": "table",
+  "NamespaceId": 3,
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}

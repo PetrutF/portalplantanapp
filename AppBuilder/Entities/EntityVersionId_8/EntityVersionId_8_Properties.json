@@ -15,7 +15,7 @@
     },
     "EntityVersionRefId": 6,
     "IsDeleted": false,
-    "IsRequired": false,
+    "IsRequired": true,
     "IsSearchable": false,
     "IsFilterable": false,
     "IsSortable": false,
@@ -42,5 +42,27 @@
     "IsFilterable": false,
     "IsSortable": false,
     "OrderIndex": 2
+  },
+  {
+    "Id": 19,
+    "EntityVersionId": 8,
+    "Name": "Start Tine",
+    "Type": {
+      "Id": "DateTime",
+      "Name": "Date and Time",
+      "InputType": {
+        "Id": "DateTime",
+        "Name": "Date and Time",
+        "ValueType": "DateTime",
+        "Length": 8,
+        "Icon": "today"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": true,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false,
+    "OrderIndex": 3
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "DisplayInMenu": false,
+  "DisplayInMenu": true,
   "ParentPageId": -1,
   "RecordNamePropertyId": 16,
   "ShowDashboardModule": false,
@@ -11,7 +11,7 @@
   "CreatedDate": "2021-10-19T10:06:52.76",
   "CreatedBy": "Petrut Floroiu",
   "LastModifiedBy": "Petrut Floroiu",
-  "LastModifiedOn": "2021-10-19T10:14:39.2133333",
+  "LastModifiedOn": "2021-10-19T10:19:48.7966667",
   "Icon": "table",
   "NamespaceId": 3,
   "Type": "UserCreated",

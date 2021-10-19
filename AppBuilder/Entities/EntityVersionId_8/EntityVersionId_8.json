@@ -1,5 +1,5 @@
 {
-  "DisplayInMenu": true,
+  "DisplayInMenu": false,
   "ParentPageId": -1,
   "RecordNamePropertyId": 16,
   "ShowDashboardModule": false,
@@ -10,6 +10,8 @@
   "PluralName": "Time Trackings",
   "CreatedDate": "2021-10-19T10:06:52.76",
   "CreatedBy": "Petrut Floroiu",
+  "LastModifiedBy": "Petrut Floroiu",
+  "LastModifiedOn": "2021-10-19T10:10:32.7233333",
   "Icon": "table",
   "NamespaceId": 3,
   "Type": "UserCreated",

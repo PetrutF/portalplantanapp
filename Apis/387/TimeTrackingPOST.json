@@ -109,16 +109,16 @@
             "value": "[CreatedRecordId]"
           },
           {
-            "name": "StartTine",
-            "value": "[CreatedRecord:StartTine]"
-          },
-          {
             "name": "Task",
             "value": "[CreatedRecord:Task]"
           },
           {
             "name": "Hours",
             "value": "[CreatedRecord:Hours]"
+          },
+          {
+            "name": "StartTine",
+            "value": "[CreatedRecord:StartTine]"
           }
         ],
         "Headers": [

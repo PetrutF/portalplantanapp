@@ -1,0 +1,18 @@
+{
+  "DisplayInMenu": false,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 5,
+  "ShowDashboardModule": false,
+  "Id": 3,
+  "VersionId": 3,
+  "EntityTabId": -1,
+  "Name": "Document",
+  "PluralName": "Documents",
+  "CreatedDate": "2021-10-19T06:03:59.6433333",
+  "CreatedBy": "SuperUser Account",
+  "Icon": "file",
+  "NamespaceId": 2,
+  "Type": "BuiltIn",
+  "BuiltInType": "Documents",
+  "EnableIndexing": false
+}

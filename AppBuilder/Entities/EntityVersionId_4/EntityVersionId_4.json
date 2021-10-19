@@ -1,0 +1,18 @@
+{
+  "DisplayInMenu": false,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 6,
+  "ShowDashboardModule": false,
+  "Id": 4,
+  "VersionId": 4,
+  "EntityTabId": -1,
+  "Name": "Image",
+  "PluralName": "Images",
+  "CreatedDate": "2021-10-19T06:03:59.6566667",
+  "CreatedBy": "SuperUser Account",
+  "Icon": "image",
+  "NamespaceId": 2,
+  "Type": "BuiltIn",
+  "BuiltInType": "Images",
+  "EnableIndexing": false
+}

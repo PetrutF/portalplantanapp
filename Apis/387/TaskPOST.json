@@ -54,6 +54,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "Time",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -64,7 +73,8 @@
         "OutputToken": "CreatedRecordId",
         "Title": "[Title]",
         "Customer": "[Customer]",
-        "Status": "[Status]"
+        "Status": "[Status]",
+        "Time": "[Time]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -96,6 +106,10 @@
           {
             "name": "Id",
             "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "Time",
+            "value": "[CreatedRecord:Time]"
           },
           {
             "name": "Title",

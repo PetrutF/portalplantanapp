@@ -1,0 +1,88 @@
+{
+  "Id": 1,
+  "EnvironmentId": 0,
+  "NamespaceId": 3,
+  "Name": "Start Tracking Time",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 1,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 1,
+        "ActionType": "PlantAnApp.CreateEntity.0.TimeTracking",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 1,
+            "Name": "ConnectionString",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 2,
+            "Name": "Task",
+            "Value": "[Task:Id]",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 3,
+            "Name": "Hours",
+            "Value": "0",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 4,
+            "Name": "StartTine",
+            "Value": "[DateTime: Now]",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 5,
+            "Name": "OutputToken",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 6,
+            "Name": "OnError",
+            "Value": {
+              "Id": 2,
+              "EventName": "OnError",
+              "Actions": []
+            },
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          }
+        ],
+        "DiagramUID": "Activity_06wkqna"
+      }
+    ]
+  },
+  "CreatedBy": "Petrut Floroiu",
+  "CreatedOn": "2021-10-19T10:17:05.4432851+00:00",
+  "LastModifiedBy": "Petrut Floroiu",
+  "LastModifiedOn": "2021-10-19T10:17:05.4432851+00:00",
+  "InputFields": [
+    {
+      "Required": false,
+      "Id": 1,
+      "Name": "Task",
+      "InputType": "EntityRef",
+      "EntityVersionId": 6,
+      "WorkflowId": 1,
+      "IsDeleted": false
+    }
+  ],
+  "OutputFields": []
+}

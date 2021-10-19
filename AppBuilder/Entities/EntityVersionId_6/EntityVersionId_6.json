@@ -1,0 +1,17 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 11,
+  "ShowDashboardModule": false,
+  "Id": 6,
+  "VersionId": 6,
+  "EntityTabId": 46,
+  "Name": "Task",
+  "PluralName": "Tasks",
+  "CreatedDate": "2021-10-19T09:59:36.6666667",
+  "CreatedBy": "Petrut Floroiu",
+  "Icon": "table",
+  "NamespaceId": 3,
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}

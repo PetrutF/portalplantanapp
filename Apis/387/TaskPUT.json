@@ -74,15 +74,6 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
-    },
-    {
-      "Name": "Time",
-      "IsDeleted": false,
-      "IsEnabled": false,
-      "OrderIndex": 4,
-      "Parameters": {},
-      "InputTypeStr": "text",
-      "Validations": []
     }
   ],
   "Actions": [
@@ -93,8 +84,7 @@
         "RecordId": "[RecordId]",
         "Title": "[Title]",
         "Customer": "[Customer]",
-        "Status": "[Status]",
-        "Time": "[Time]"
+        "Status": "[Status]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
